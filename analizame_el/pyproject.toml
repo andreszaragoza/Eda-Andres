@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "analisis de datos"
+version = "0.1.0"
+description = "Analisis_de_Videojuegos"
+authors = ["yes"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.2.0"
+readme = "^0.7.1"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+matplotlib = "^3.10.0"
+polars = "^1.17.1"
+requests = "^2.32.3"
+spicy = "^0.16.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
