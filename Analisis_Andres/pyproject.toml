@@ -15,6 +15,9 @@ matplotlib = "^3.10.0"
 polars = "^1.17.1"
 requests = "^2.32.3"
 spicy = "^0.16.0"
+ace-tools = "^0.0"
+ace = "^0.3.3"
+tools = "^0.1.9"
 
 
 [tool.poetry.group.dev.dependencies]
