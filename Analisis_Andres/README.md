@@ -1,95 +1,96 @@
-README: Análisis de Datos
+# Análisis de Datos de Videojuegos
 
-Descripción del Proyecto
+## Descripción del Proyecto
 
-Este proyecto tiene como objetivo realizar un análisis detallado de los datos relacionados con videojuegos utilizando herramientas como Python y Jupyter Notebooks. Los datos proporcionados se encuentran en un archivo CSV llamado juegos_rawg_limpio.csv, mientras que el análisis principal fue desarrollado y ejecutado en el archivo Analisis_Datos.ipynb.
+Este proyecto tiene como objetivo realizar un análisis detallado de los datos relacionados con videojuegos utilizando herramientas como **Python** y **Jupyter Notebooks**. Los datos provienen de un archivo CSV llamado `juegos_rawg_limpio.csv`, mientras que el análisis principal se desarrolló y ejecutó en el archivo `Analisis_Datos.ipynb`.
 
-Archivos Incluidos
+---
 
-Analisis_Datos.ipynb:
+## Archivos Incluidos
 
-Este notebook contiene código para procesar, analizar y visualizar los datos.
+### 1. **`Analisis_Datos.ipynb`**
+   - Notebook que contiene el código para procesar, analizar y visualizar los datos.
+   - Genera salidas y visualizaciones basadas en los datos del archivo CSV proporcionado.
 
-Ha sido ejecutado correctamente, generando salidas y visualizaciones basadas en los datos del archivo CSV proporcionado.
+### 2. **`juegos_rawg_limpio.csv`**
+   - Archivo CSV con información estructurada y limpia sobre videojuegos.
+   - Diseñado para ser usado directamente en el análisis.
 
-juegos_rawg_limpio.csv:
+### 3. **`Analisis_Datos_executed.ipynb`**
+   - Versión ejecutada del notebook original.
+   - Incluye resultados, estadísticas y visualizaciones generadas durante la ejecución.
 
-Archivo CSV que contiene los datos sobre videojuegos.
+---
 
-Este dataset incluye información limpia y estructurada lista para su análisis.
+## Proceso Realizado
 
-Analisis_Datos_executed.ipynb (salida ejecutada):
+### 1. **Carga de Datos**
+   - Exploración inicial del archivo `juegos_rawg_limpio.csv` para comprender su estructura y contenido.
 
-Versión ejecutada del notebook, que incluye todos los resultados y salidas generadas durante la ejecución.
+### 2. **Procesamiento de Datos**
+   - Tareas de limpieza y transformación para preparar los datos.
 
-Proceso Realizado
+### 3. **Análisis Exploratorio**
+   - Generación de estadísticas descriptivas.
+   - Visualizaciones para identificar tendencias, patrones y outliers.
 
-Carga de Datos:
+### 4. **Ejecución Completa del Notebook**
+   - Ejecución reproducible con resultados claros y gráficos representativos.
 
-Los datos del archivo juegos_rawg_limpio.csv fueron cargados y explorados para entender su estructura y contenido.
+---
 
-Procesamiento de Datos:
+## Resultados
 
-Se realizaron tareas de limpieza y transformación para preparar los datos para el análisis.
+- Se generaron gráficos y estadísticas clave que ofrecen insights sobre el comportamiento y las tendencias en el mundo de los videojuegos.
+- Los resultados están documentados en el archivo ejecutado `Analisis_Datos_executed.ipynb`.
 
-Análisis Exploratorio:
+---
 
-Generación de estadísticas descriptivas.
+## Imágenes Representativas
 
-Visualizaciones para identificar tendencias, patrones y outliers en los datos.
+### 1. **Interfaz RAWG Video Games Database API**
+   ![RAWG API](images/Captura_de_pantalla_75.png)
 
-Ejecución Completa del Notebook:
+### 2. **Sección de Juegos Nuevos y en Tendencia**
+   ![Juegos Nuevos](images/Captura_de_pantalla_76.png)
 
-El notebook fue ejecutado completamente para obtener resultados reproducibles y visualizaciones claras.
+---
 
-Resultados
+## Requisitos
 
-Se generaron gráficos y estadísticas clave que ofrecen insights sobre los datos de videojuegos.
+Para ejecutar este proyecto necesitas:
 
-Los resultados están disponibles en el archivo ejecutado Analisis_Datos_executed.ipynb.
+- **Python 3.x**
+- **Jupyter Notebook** o un entorno compatible
+- Las siguientes bibliotecas de Python:
+  - `pandas`
+  - `matplotlib`
+  - `seaborn`
+  - `numpy`
 
-Imágenes Representativas
+---
 
-Interfaz RAWG Video Games Database API:
+## Instrucciones
 
+1. **Revisar los datos:**
+   - Abre el archivo CSV `juegos_rawg_limpio.csv` para familiarizarte con su contenido.
 
-Sección de juegos nuevos y en tendencia:
+2. **Ejecutar el notebook:**
+   - Abre el archivo `Analisis_Datos_executed.ipynb` en Jupyter Notebook para explorar el análisis y los resultados.
 
+3. **Modificar o ampliar el análisis:**
+   - Usa el archivo original `Analisis_Datos.ipynb` para añadir nuevas visualizaciones o análisis adicionales.
 
-Requisitos
+---
 
-Para ejecutar este proyecto, necesitas:
+## Notas Adicionales
 
-Python 3.x
+- Si tienes preguntas o necesitas soporte, consulta la documentación de las bibliotecas utilizadas:
+  - [Documentación de pandas](https://pandas.pydata.org/)
+  - [Documentación de matplotlib](https://matplotlib.org/)
+  - [Documentación de seaborn](https://seaborn.pydata.org/)
+  - [Documentación de numpy](https://numpy.org/)
 
-Jupyter Notebook o un entorno compatible
+---
 
-Las siguientes bibliotecas:
-
-pandas
-
-matplotlib
-
-seaborn
-
-numpy
-
-Instrucciones
-
-Revisar los datos:
-
-Abre y examina el archivo CSV juegos_rawg_limpio.csv para familiarizarte con el contenido.
-
-Ejecutar el notebook:
-
-Abre el archivo Analisis_Datos_executed.ipynb en Jupyter Notebook para explorar el código y los resultados.
-
-Modificar o ampliar el análisis:
-
-Si deseas agregar nuevos análisis o modificar el existente, utiliza el archivo original Analisis_Datos.ipynb.
-
-Notas Adicionales
-
-Si tienes preguntas o necesitas soporte adicional sobre cómo interpretar los resultados o ampliar este análisis, no dudes en buscar ayuda o utilizar documentación adicional de las bibliotecas utilizadas.
-
-Este README sirve como guía para entender y replicar el trabajo realizado en el análisis de datos de videojuegos.
+Este README sirve como guía para entender, replicar y ampliar el análisis de datos de videojuegos.
