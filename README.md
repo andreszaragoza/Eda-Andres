@@ -1,5 +1,17 @@
 # Análisis de Datos de Videojuegos
 
+---
+
+## Imágenes Representativas
+
+### 1. **Interfaz RAWG Video Games Database API**
+   ![RAWG API](./Img/Captura%20de%20pantalla%20(75).png)
+
+### 2. **Sección de Juegos Nuevos y en Tendencia**
+   ![Juegos Nuevos](./Img/Captura%20de%20pantalla%20(76).png)
+
+---
+
 ## Descripción del Proyecto
 
 Este proyecto tiene como objetivo realizar un análisis detallado de los datos relacionados con videojuegos utilizando herramientas como **Python** y **Jupyter Notebooks**. Los datos provienen de un archivo CSV llamado `juegos_rawg_limpio.csv`, mientras que el análisis principal se desarrolló y ejecutó en el archivo `Analisis_Datos.ipynb`.
@@ -44,17 +56,7 @@ Este proyecto tiene como objetivo realizar un análisis detallado de los datos r
 - Se generaron gráficos y estadísticas clave que ofrecen insights sobre el comportamiento y las tendencias en el mundo de los videojuegos.
 - Los resultados están documentados en el archivo ejecutado `Analisis_Datos_executed.ipynb`.
 
----
 
-## Imágenes Representativas
-
-### 1. **Interfaz RAWG Video Games Database API**
-   ![RAWG API](Img/Captura_de_pantalla_75.png)
-
-### 2. **Sección de Juegos Nuevos y en Tendencia**
-   ![Juegos Nuevos](Img/Captura_de_pantalla_76.png)
-
----
 
 ## Requisitos
 
@@ -94,3 +96,4 @@ Para ejecutar este proyecto necesitas:
 ---
 
 Este README sirve como guía para entender, replicar y ampliar el análisis de datos de videojuegos.
+
