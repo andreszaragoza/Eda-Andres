@@ -1,6 +1,6 @@
 import ast
 import pandas as pd
-
+from collections import Counter
 
 def convert_to_json(data):
     try:
@@ -52,4 +52,11 @@ def extract_tag_names(tag_string):
         else:
             return []
     except (ValueError, SyntaxError, TypeError):
+        return []
+    
+def extract_store_names(stores):
+    try:
+        stores = ast.literal_eval(stores)
+        return [store['store']['name'] for store in stores]
+    except Exception:
         return []
