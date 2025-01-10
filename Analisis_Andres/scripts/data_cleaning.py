@@ -60,3 +60,19 @@ def extract_store_names(stores):
         return [store['store']['name'] for store in stores]
     except Exception:
         return []
+    
+'''manejo de metacritic'''
+def extract_main_genre(genre_str): 
+    try:
+        genres_list = ast.literal_eval(genre_str)
+        if isinstance(genres_list, list) and len(genres_list) > 0:
+            return genres_list[0].get('name', 'Unknown')
+        return 'Unknown'
+    except (ValueError, SyntaxError):
+        return 'Unknown'
+    
+''' Imputar los valores faltantes de 'metacritic' con la mediana correspondiente'''
+def impute_metacritic(row):
+    if pd.isna(row['metacritic']):
+        return median_metacritic.get((row['release_year'], row['main_genre']), df['metacritic'].median())
+    return row['metacritic']
