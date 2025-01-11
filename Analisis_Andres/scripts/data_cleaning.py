@@ -71,8 +71,3 @@ def extract_main_genre(genre_str):
     except (ValueError, SyntaxError):
         return 'Unknown'
     
-''' Imputar los valores faltantes de 'metacritic' con la mediana correspondiente'''
-def impute_metacritic(row):
-    if pd.isna(row['metacritic']):
-        return median_metacritic.get((row['release_year'], row['main_genre']), df['metacritic'].median())
-    return row['metacritic']
