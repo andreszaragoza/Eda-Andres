@@ -19,6 +19,7 @@ ace-tools = "^0.0"
 ace = "^0.3.3"
 tools = "^0.1.9"
 plotly = "^5.24.1"
+pandoc = "^2.4"
 
 
 [tool.poetry.group.dev.dependencies]
