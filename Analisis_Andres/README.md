@@ -5,10 +5,10 @@
 ## Imágenes Representativas
 
 ### 1. **Interfaz RAWG Video Games Database API**
-   ![RAWG API](./Img/Captura%20de%20pantalla%20(75).png)
+   ![RAWG API](./reports/IMG_figures/Captura%20de%20pantalla%20(75).png)
 
 ### 2. **Sección de Juegos Nuevos y en Tendencia**
-   ![Juegos Nuevos](./Img/Captura%20de%20pantalla%20(76).png)
+   ![Juegos Nuevos](./reports/IMG_figures/Captura%20de%20pantalla%20(76).png)
 
 ---
 
